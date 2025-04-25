@@ -24,3 +24,14 @@ body {
   .inline {
     display: inline;
   }
+
+  /* To use the alternative box model for all of your elements (which is a common choice among developers), set the box-sizing property on the <html> element and set all other elements to inherit that value:
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+} */
+
