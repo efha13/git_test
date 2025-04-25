@@ -35,3 +35,5 @@ html {
   box-sizing: inherit;
 } */
 
+/* The order of border-style is top, right, bottom, left
+border-style: dashed groove none dotted; */
