@@ -25,7 +25,8 @@ body {
     display: inline;
   }
 
-  /* To use the alternative box model for all of your elements (which is a common choice among developers), set the box-sizing property on the <html> element and set all other elements to inherit that value:
+/* ALTERNATIVE BOX MODEL
+To use the alternative box model for all of your elements (which is a common choice among developers), set the box-sizing property on the <html> element and set all other elements to inherit that value:
 
 html {
   box-sizing: border-box;
@@ -35,5 +36,10 @@ html {
   box-sizing: inherit;
 } */
 
-/* The order of border-style is top, right, bottom, left
+/* ORDER OF BORDER-STYLE
+The order of border-style is top, right, bottom, left
 border-style: dashed groove none dotted; */
+
+/* MARGIN AUTO
+margin: 0 auto; (0 for top and bottom, auto for left and right)
+auto in margin only useful for horizontal centering */
